@@ -1,0 +1,40 @@
+body{
+    background-image: url("../images/1.jpg");
+}
+
+#signup{
+    position: relative;
+    left: 500px;
+    top: 25px;
+}
+table{
+    border:1px solid white;
+    border-collapse:collapse;
+    position: relative;
+    left: 375px;
+    top: 80px;
+    color: white;
+}
+table tr td{
+    border:1px solid white;
+    text-align:center;
+}
+#outHospital{
+    position: relative;
+    left: 473px;
+    top: 50px;
+}
+#where{
+    position: relative;
+    top: 30px;
+    right: 32px;
+}
+#Patientaddress{
+    position: relative;
+    left: 880px;
+    bottom: 15px;
+}
+#table_div{
+    background-color:#000000AD;
+    position: relative;
+}

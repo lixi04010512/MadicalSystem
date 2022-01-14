@@ -1,0 +1,15 @@
+body{
+    background-image: url("../images/1.jpg");
+}
+#welcome{
+    position: relative;
+    left: 500px;
+    top: 160px;
+    color: white;
+}
+#medical{
+    position: relative;
+    left: 390px;
+    top: 175px;
+    color: white;
+}

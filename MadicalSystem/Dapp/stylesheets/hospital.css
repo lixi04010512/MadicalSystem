@@ -1,0 +1,40 @@
+body{
+    background-image: url("../images/1.jpg");
+    background-size: 1200px;
+}
+#Hospitaladdress{
+    position: relative;
+    left: 880px;
+    bottom: 15px;
+}
+#patient-money{
+    width: 290px;
+	height: 90px;
+    border:1px solid white;
+    border-radius: 20px;
+    position: relative;
+    left: 670px;
+    top: -6px;
+}
+#where{
+    position: relative;
+    top: 30px;
+    right: 32px;
+}
+#hospital_address{
+    position: relative;
+    left: 880px;
+    bottom: 15px;
+}
+#welcome{
+    position: relative;
+    left: 530px;
+    top: 160px;
+    color: white;
+}
+#medical{
+    position: relative;
+    left: 460px;
+    top: 175px;
+    color: white;
+}

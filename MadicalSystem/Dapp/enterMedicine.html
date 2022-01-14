@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <title>医生开药</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <meta name="keywords" content=""/>
+  <link href="stylesheets/style.css" rel='stylesheet' type='text/css' />
+	<link href="http://fonts.googleapis.com/css?family=Abhaya+Libre:400,500,600,700,800" rel="stylesheet">
+  <script type="text/javascript" src="javascripts/jquery-3.6.0.min.js"></script>
+  <script type="text/javascript" src="javascripts/web3.min.js"></script>
+  <link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="stylesheet" type="text/css" href="css/slick.css"/>	
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+	<link rel="stylesheet" type="text/css" href="css/jquery.mmenu.all.css"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	<link rel="stylesheet" type="text/css" href="css/jquery.mCustomScrollbar.css"/>
+	<link rel="stylesheet" href="http://cdn.bootcss.com/animate.css/3.5.1/animate.min.css">
+  <style>
+    ul li a{
+        width: 170px;
+        text-align: center;
+    }
+    </style>
+</head>
+<body>
+  <header class="header">
+		<section class="container naver clearfix">
+			<div class="logo pull-left">Health Claims</a></div>
+			<nav class="nav pull-left">
+				<ul>
+					<li class="active"><a href="FirstPage.html">首页</a></li>
+					<li><a href="hospital.html">医院主页</a>
+						<ul>
+              <li><a href="isPatient.html">患者是否存在</a></li>
+							<li><a href="addMedicine.html">添加药库</a></li>
+							<li><a href="addPatient.html">添加患者</a></li>
+							<li><a href="enterMedicine.html">医生开药</a></li>
+              <li><a href="outHospital.html">患者离院</a></li>
+              <li><a href="Searchmedicine.html">查询药库</a></li>
+              <li><a href="searchPatient.html">病人信息</a></li>
+						</ul>
+					</li>
+					<li><a href="patient.html">患者主页</a>
+						<ul>
+							<li><a href="patient.html">患者信息</a></li>
+              <li><a href="Searchmedicine.html">离院缴费</a></li>
+						</ul>
+					</li>
+					<li><a href="insurance.html">保险公司</a>
+						<ul>
+							<li><a href="setHospital.html">设置医院地址</a></li>
+							<li><a href="buyInsurance.html">购买理赔保险</a></li>
+              <li><a href="claimSettlement.html">保险公司理赔</a></li>
+              <li><a href="searchPatient.html">理赔人信息</a></li>
+						</ul>
+					</li>
+			</nav>
+		</section> 		
+	</header>
+  <br>
+  <br>
+  <div>
+    <h1>Enter the medicine</h1>
+  </div>
+  <div class="w3ls-contact">
+    <form action="#" method="post">
+      <div class="agile-field-txt">
+        <label>
+         Patient Address</label>
+		 <input type="text" id="address" placeholder="请输入患者地址" />
+      </div>
+      <div class="agile-field-txt">
+        <label>
+          Medicine Name:</label>
+        <input type="text" id="name" placeholder="请输入药的名字" />
+      </div>
+      <div class="agile-field-txt">
+        <label>
+          Medicine Price</label>
+         <input type="text" id="number" placeholder="请输入药的数量：" />
+      </div>
+      <div class="w3ls-contact  w3l-sub">
+        <input type="button" value="confirm enter" id="confirmEnter">
+      </div>
+    </form>
+  </div>
+  <script src="javascripts/abi.js"></script>
+  <script src="javascripts/enterMedicine.js"></script>
+  <script src="http://apps.bdimg.com/libs/jquery/1.8.3/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="js/public.js" type="text/javascript" charset="utf-8"></script>
+  <script src="js/jquery.placeholder.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="js/jquery.mmenu.all.min.js" type="text/javascript" charset="utf-8"></script>
+ <script src="http://cdn.bootcss.com/wow/1.1.2/wow.min.js"></script>
+</body>
+
+</html>

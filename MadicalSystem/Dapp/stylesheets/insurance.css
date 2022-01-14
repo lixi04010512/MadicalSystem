@@ -1,0 +1,25 @@
+body{
+    background-image: url("../images/1.jpg");
+}
+#where{
+    position: relative;
+    top: 30px;
+    right: 32px;
+}
+#insurance_addesss{
+    position: relative;
+    left: 880px;
+    bottom: 15px;
+}
+#welcome{
+    position: relative;
+    left: 530px;
+    top: 160px;
+    color: white;
+}
+#medical{
+    position: relative;
+    left: 460px;
+    top: 175px;
+    color: white;
+}
